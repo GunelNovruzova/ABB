@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="all">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <a href="">Haqqımızda</a>
+                            <a href="">Tender Elanları</a>
+                            <a href="">Tariflər</a>
+                            <a href="">Xəbərlər</a>
+                            <a href="">Xidmət Şəbəkəsi</a>
+                            <a href="">Təklif və Şikayətlər</a>
+                            <a href="">Onlayn Xidmətlər</a>
+                            <a class="kar" href="">Karyera Portalı</a>
+                        </div>
+                        <div class="col-lg-3 d-flex justify-content-end">
+                            <span onclick="Open()" ondblclick="Close()"><i class="fas fa-search"></i>Axtarış</span>
+                            <span>AZ<i id="icn" onclick="Click()" ondblclick="Close1()"
+                                    class="fas fa-angle-down icon1"></i></span>
+                            <span><i class="fas fa-phone-alt"></i>937</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <img src="https://abb-bank.az/img/abb-30.svg?v=84" alt="">
+                        <a href="">Fərdi /</a>
+                        <a href="">Kooparativ /</a>
+                        <a href="">KOB</a>
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-end">
+                        <a class="int" href=""><i class="fas fa-arrow-circle-right"></i>İnternet Bankçılıq</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="sidebar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11">
+                    <input type="text"
+                        class="w-100 h-75 h-lg-140 fs-18 fs-lg-40 fw-300 pr-3 pr-lg-5 border-0 bg-transparent color-9f9f9f"
+                        placeholder="Sizə necə kömək edə bilərik?">
+
+                </div>
+                <div class="col-lg-1">
+                    <i onclick="Close()" class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="flag1" class="flag">
+        <span> <img src="https://media.flaticon.com/dist/min/img/flags/en.svg" alt=""> EN</span>
+        <br>
+        <span> <img src="https://media.flaticon.com/dist/min/img/flags/ru.svg" alt=""> RU</span>
+    </div>
+
+    <div id="phone-header">
+        <div class="container">
+            <div class="row">
+                <div class="top">
+                    <div class="col-4">
+                        <div class="left">
+                            <span>Fərdi<i id="icn1" onclick="Open3()" ondblclick="Close3()" class="fas fa-angle-down icon1"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-8 text-end">
+                        <i onclick="Open2()" class="fas fa-search sear"></i>
+                        <span>AZ</span>
+                        <span><i class="fas fa-phone-alt"></i>937</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="others">
+       <p> Kooparativ</p>
+        <p>Fərdi</p>
+    </div>
+    <div id="phone-header2">
+
+        <div class="container">
+            <div class="bottom">
+                <div class="row">
+                    <div class="col-10"><img src="https://abb-bank.az/img/abb-30.svg?v=84" alt=""></div>
+                    <div class="col-2"><i onclick="Openb()" class="fa-solid fa-bars"></i></div>
+                
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="sidebar-phone">
+        <a href="">Kreditlər</a>
+        <hr>
+        <a href="">Məsafədən hesab aç</a>
+        <hr>
+        <a href="">Əmanətlər</a>
+        <hr>
+        <a href="">Kartlar</a>
+        <hr>
+        <a href="">Pul köçürmələri</a>
+        <hr>
+        <a href="">Cari hesab</a>
+    </div>
+    <div id="sidebar-phone2">
+        <div class="container">
+            <div class="row">
+                <div class="col-11">
+                    <input type="text"
+                        class="w-100 h-75 h-lg-140 fs-18 fs-lg-40 fw-300 pr-3 pr-lg-5 border-0 bg-transparent color-9f9f9f"
+                        placeholder="Sizə necə kömək edə bilərik?">
+
+                </div>
+                <div class="col-1">
+                    <i onclick="Close2()" class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="JS/main.js"></script>
+
+</html>
